@@ -1,0 +1,98 @@
+#Go, Troy P. – Exercise 2
+
+# Task 1: Create a Python program to perform arithmetic operations (Addition, Subtraction, Division,
+
+Multiplication, Modulus, Exponent) using two variable numbers for int, float, and complex
+
+# Arithmetic operations on integers
+
+Int_num1 = 24
+
+Int_num2 = 2
+
+Print(“Integer Operations:”)
+
+Print(f”Addition: {int_num1} + {int_num2} = {int_num1 + int_num2}”)
+
+Print(f”Subtraction: {int_num1} – {int_num2} = {int_num1 – int_num2}”)
+
+Print(f”Multiplication: {int_num1} * {int_num2} = {int_num1 * int_num2}”)
+
+Print(f”Division: {int_num1} / {int_num2} = {int_num1 / int_num2}”)
+
+Print(f”Modulus: {int_num1} % {int_num2} = {int_num1 % int_num2}”)
+
+Print(f”Exponent: {int_num1} ** {int_num2} = {int_num1 ** int_num2}\n”)
+
+# Arithmetic operations on floats
+
+Float_num1 = 10.5
+
+Float_num2 = 5.2
+
+Print(“Float Operations:”)
+
+Print(f”Addition: {float_num1} + {float_num2} = {float_num1 + float_num2}”)
+
+Print(f”Subtraction: {float_num1} – {float_num2} = {float_num1 – float_num2}”)
+
+Print(f”Multiplication: {float_num1} * {float_num2} = {float_num1 * float_num2}”)
+
+Print(f”Division: {float_num1} / {float_num2} = {float_num1 / float_num2}”)
+
+Print(f”Modulus: {float_num1} % {float_num2} = {float_num1 % float_num2}”)
+
+Print(f”Exponent: {float_num1} ** {float_num2} = {float_num1 ** float_num2}\n”)
+
+# Arithmetic operations on complex numbers
+
+Complex_num1 = 1 + 3j
+
+Complex_num2 = 2 + 4j
+
+Print(“Complex Number Operations:”)
+
+Print(f”Addition: {complex_num1} + {complex_num2} = {complex_num1 + complex_num2}”)
+
+Print(f”Subtraction: {complex_num1} – {complex_num2} = {complex_num1 – complex_num2}”)
+
+Print(f”Multiplication: {complex_num1} * {complex_num2} = {complex_num1 * complex_num2}”)
+
+Print(f”Division: {complex_num1} / {complex_num2} = {complex_num1 / complex_num2}\n”)
+
+# Note: Modulus and Exponent are not used with complex numbers in this way
+
+# Task 2: Write a program that creates two variables, num1 and num2. Both num1 and num2 should be
+
+assigned the integer literal 25000000, one written with underscores and one without.
+
+# Creating variables with and without underscores
+
+Num1 = 25_000_000
+
+Num2 = 25000000
+
+Print(“Variables with and without underscores:”)
+
+Print(f”num1 with underscores: {num1:_}”) # Displays the number with underscores
+
+Print(f”num2 without underscores: {num2}\n”)
+
+# Task 3: Creating int, float, and complex variables then checking their types
+
+# Creating int, float, and complex variables
+
+Int_var = 10
+
+Float_var = 3.14
+
+Complex_var = 2 + 3j
+# Checking and printing their types
+
+Print(“Variable Types:”)
+
+Print(f”Type of int_var: {type(int_var)}”) # Output: <class ‘int’>
+
+Print(f”Type of float_var: {type(float_var)}”) # Output: <class ‘float’>
+
+Print(f”Type of complex_var: {type(complex_var)}\n”) # Output: <class ‘complex’>
