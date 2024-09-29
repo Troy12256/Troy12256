@@ -1,0 +1,37 @@
+# Condition in an if statement
+
+X = 10
+
+If x >= 10:
+
+Print(True)
+
+Else:
+
+Print(False)
+
+# List with different data types
+
+My_list = [“apple”, 5, True]
+
+# Tuple with different data types
+
+My_tuple = (“banana”, 10, False)
+
+# Set with different data types
+
+My_set = {3, “cherry”, True}
+
+# Dictionary with different data types
+
+My_dict = {“key1”: “orange”, “key2”: 7, “key3”: False}
+
+# Displaying the data collections
+
+Print(“List:”, my_list)
+
+Print(“Tuple:”, my_tuple)
+
+Print(“Set:”, my_set)
+
+Print(“Dictionary:”, my_dict)
